@@ -15,6 +15,7 @@ import com.EasyLoadGestioneImpresa.auth.payload.RegisterDto;
 import com.EasyLoadGestioneImpresa.auth.service.AuthService;
 
 @RestController
+@CrossOrigin("*")
 @RequestMapping("/api/auth")
 public class AuthController {
 
